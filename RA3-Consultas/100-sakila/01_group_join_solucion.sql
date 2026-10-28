@@ -8,6 +8,9 @@ use sakila;
 SELECT * from actor;
 
 -- 2:  Lista solo los actores que participan en 20 o más películas (umbral alto) con su conteo.
+
+SELECT * FROM category;
+
 -- 3:  Para cada idioma, indica cuántas películas están catalogadas en ese idioma.
 -- 4:  Muestra el promedio de duración (length) de las películas por idioma y filtra aquellos idiomas con duración media estrictamente mayor a 110 minutos.
 -- 5:  Para cada película, muestra cuántas copias hay en el inventario.
